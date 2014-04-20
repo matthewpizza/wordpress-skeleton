@@ -26,10 +26,12 @@
 		"fancyguy/webroot-installer": "1.0.0",
 
 		"wordpress/wordpress": "3.*",
-		"wpackagist-plugin/akismet": ">=3.0",
-		"wpackagist-plugin/jetpack": ">=2.6.2",
+
+		"wpackagist-plugin/akismet": ">=3.0.0",
+		"wpackagist-plugin/jetpack": ">=2.9.3",
 		"wpackagist-plugin/wordpress-importer": ">=0.6.1",
-		"wpackagist-plugin/advanced-custom-fields": ">=4.3.5"
+		"wpackagist-plugin/advanced-custom-fields": ">=4.3.7",
+		"wpackagist-plugin/timber-library": ">=0.17.2"
 	},
 	"extra": {
 		"webroot-dir": "webroot/wp",
