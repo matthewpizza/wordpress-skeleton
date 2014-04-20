@@ -28,7 +28,7 @@
 		"wordpress/wordpress": "3.*",
 
 		"wpackagist-plugin/akismet": ">=3.0.0",
-		"wpackagist-plugin/jetpack": ">=2.9.3",
+		"wpackagist-plugin/jetpack": "2.*",
 		"wpackagist-plugin/wordpress-importer": ">=0.6.1",
 		"wpackagist-plugin/advanced-custom-fields": ">=4.3.7",
 		"wpackagist-plugin/timber-library": ">=0.17.2"
