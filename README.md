@@ -4,7 +4,9 @@ Based in spirit on @markjaquith’s [WordPress Skeleton](https://github.com/mark
 
 ## About
 
-This project aims to minimize the time it takes creating a new WordPress project. It is based on my work for [5 Every Day](http://5everyday.com/).
+This project aims to minimize the time it takes creating a new WordPress project. 
+
+It is based on my work for [5 Every Day](http://5everyday.com/).
 
 ## Installation
 
