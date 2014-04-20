@@ -1,0 +1,42 @@
+{
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "wordpress/wordpress",
+				"type": "webroot",
+				"version": "3.9",
+				"source": {
+					"type": "git",
+					"url": "https://github.com/WordPress/WordPress.git",
+					"reference": "3.9"
+				}
+			}
+		}
+	],
+	"config": {
+		"vendor-dir": "webroot/vendor"
+	},
+	"require": {
+		"composer/installers": "~1.0",
+		"fancyguy/webroot-installer": "1.0.0",
+
+		"wordpress/wordpress": "3.*",
+		"wpackagist-plugin/akismet": ">=3.0",
+		"wpackagist-plugin/jetpack": ">=2.6.2",
+		"wpackagist-plugin/wordpress-importer": ">=0.6.1",
+		"wpackagist-plugin/advanced-custom-fields": ">=4.3.5"
+	},
+	"extra": {
+		"webroot-dir": "webroot/wp",
+		"webroot-package": "wordpress/wordpress",
+		"installer-paths": {
+			"webroot/content/plugins/{$name}/": ["type:wordpress-plugin"],
+			"webroot/content/mu-plugins/{$name}/": ["type:wordpress-muplugin"]
+		}
+	}
+}
