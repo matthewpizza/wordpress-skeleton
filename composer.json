@@ -9,11 +9,11 @@
 			"package": {
 				"name": "wordpress/wordpress",
 				"type": "webroot",
-				"version": "3.9",
+				"version": "4.0",
 				"source": {
 					"type": "git",
 					"url": "https://github.com/WordPress/WordPress.git",
-					"reference": "3.9"
+					"reference": "4.0"
 				}
 			}
 		}
@@ -25,13 +25,13 @@
 		"composer/installers": "~1.0",
 		"fancyguy/webroot-installer": "1.0.0",
 
-		"wordpress/wordpress": "3.*",
+		"wordpress/wordpress": "4.*",
 
 		"wpackagist-plugin/akismet": ">=3.0.0",
-		"wpackagist-plugin/jetpack": "2.*",
+		"wpackagist-plugin/jetpack": "3.*",
 		"wpackagist-plugin/wordpress-importer": ">=0.6.1",
-		"wpackagist-plugin/advanced-custom-fields": ">=4.3.7",
-		"wpackagist-plugin/timber-library": ">=0.17.2"
+		"wpackagist-plugin/advanced-custom-fields": ">=4.3.9",
+		"wpackagist-plugin/timber-library": ">=0.20.6"
 	},
 	"extra": {
 		"webroot-dir": "webroot/wp",
